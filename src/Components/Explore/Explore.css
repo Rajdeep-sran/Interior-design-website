@@ -1,0 +1,22 @@
+.explorepage{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url('../../assets/hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.explore-btns{
+    /* padding-top: 200px; */
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.exp-buttons button{
+    margin-left: 20px;
+    margin-right: 20px;
+}

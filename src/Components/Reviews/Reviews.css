@@ -1,0 +1,68 @@
+.main{
+    width: 100%;
+    min-height: 100vh;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url('../../assets/team.png'); */
+    background: rgb(96, 95, 95);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+.reviews h1{
+    padding-top: 18px;
+}
+/* TestimonialCard.css */
+
+.testimonial-card {
+    background-color: #353535;
+    border: 1px solid #4f4e4e;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px;
+    transition: transform .2s;
+}
+.testimonial-card:hover{
+    transform: scale(1.05);
+} 
+  .testimonial-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .testimonial-content {
+    padding: 10px;
+  }
+  
+  .testimonial-message {
+    font-style: italic;
+    font-size: 16px;
+    color: #d6d6d6;
+    margin-bottom: 15px;
+  }
+  
+  .testimonial-name {
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 5px;
+  }
+  
+  .testimonial-title {
+    font-size: 14px;
+    color: #b4b4b4;
+  }
+  .testimonial-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }  

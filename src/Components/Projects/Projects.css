@@ -1,0 +1,100 @@
+.projectspage{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url('../../assets/hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url('../../assets/team.png'); */
+    background: rgb(96, 95, 95);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.main h1{
+    padding-top: 35px;
+}
+
+.cardComp-projects{
+    display: flex; 
+    padding: 0 10px;
+    scroll-behavior: smooth;
+}
+
+.product-carousel{
+    position: relative;
+    overflow: hidden;
+    /* padding: 15px; */
+}
+.product-container{
+    padding: 0 10px;
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+} 
+/* .swiper-button-prev,
+.swiper-button-next {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.swiper-button-prev {
+  left: 10px;
+}
+
+.swiper-button-next {
+  right: 10px;
+} */
+.custom-swiper-button-prev,
+.custom-swiper-button-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.5); /* Button color */
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.custom-swiper-button-prev {
+  left: -20px; 
+}
+
+.custom-swiper-button-next {
+  right: -20px; 
+}
+
+.mySwiper {
+  position: relative;
+  padding: 0 50px;
+}
+
